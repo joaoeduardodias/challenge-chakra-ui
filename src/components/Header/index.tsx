@@ -2,7 +2,13 @@ import { Flex, Image, SimpleGrid } from '@chakra-ui/react';
 
 export function Header(): JSX.Element {
   return (
-    <Flex align="center" justify="center" w="100%" h={['3.125rem', '6.25rem']}>
+    <Flex
+      as="header"
+      align="center"
+      justify="center"
+      w="100%"
+      h={['3.125rem', '6.25rem']}
+    >
       <SimpleGrid
         h="100%"
         mx="auto"
