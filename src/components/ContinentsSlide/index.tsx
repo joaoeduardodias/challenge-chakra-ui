@@ -42,7 +42,7 @@ export function ContinentsSlide(): JSX.Element {
             textAlign="center"
             color="white"
           >
-            <Link passHref href="/continent/europe">
+            <Link passHref href="/continents/europe">
               <a>
                 <Heading fontSize={['3xl', '4xl', '5xl']} fontWeight="bold">
                   Europa
@@ -72,7 +72,7 @@ export function ContinentsSlide(): JSX.Element {
             textAlign="center"
             color="white"
           >
-            <Link passHref href="/continent/europe">
+            <Link passHref href="/continents/europe">
               <a>
                 <Heading fontSize={['3xl', '4xl', '5xl']} fontWeight="bold">
                   Europa
@@ -102,7 +102,7 @@ export function ContinentsSlide(): JSX.Element {
             textAlign="center"
             color="white"
           >
-            <Link passHref href="/continent/europe">
+            <Link passHref href="/continents/europe">
               <a>
                 <Heading fontSize={['3xl', '4xl', '5xl']} fontWeight="bold">
                   Europa

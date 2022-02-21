@@ -1,16 +1,20 @@
 import { Divider, Flex, Text } from '@chakra-ui/react';
 import type { NextPage } from 'next';
+import dynamic from 'next/dynamic';
 import { Banner } from '../components/Banner';
 import { ContinentsSlide } from '../components/ContinentsSlide';
 import { Header } from '../components/Header';
-import { TravelTypes } from '../components/TravelTypes';
+
+const TravelTypeNoSSR = dynamic(() => import('../components/TravelTypes'), {
+  ssr: false,
+});
 
 const Home: NextPage = function () {
   return (
     <>
       <Header />
       <Banner />
-      <TravelTypes />
+      <TravelTypeNoSSR />
       <Divider
         w={['60px', '90px']}
         mt="5rem"

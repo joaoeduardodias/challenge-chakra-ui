@@ -1,7 +1,7 @@
 import { Grid, GridItem, useBreakpointValue } from '@chakra-ui/react';
 import { TravelType } from './TravelType';
 
-export function TravelTypes(): JSX.Element {
+export default function TravelTypes(): JSX.Element {
   const isMobile = useBreakpointValue({
     base: false,
     sm: true,
