@@ -18,6 +18,7 @@ export function ContinentBanner(): JSX.Element {
         color="white"
         fontWeight="600"
         fontSize={['1.75rem', '2rem', '3rem']}
+        textAlign={['center', 'left']}
       >
         Europa
       </Heading>
